@@ -1,5 +1,5 @@
 ﻿{
-  "executionRoleArn": "arn:aws:iam::315408206347:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::097674612901:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "wp-test-task",
@@ -11,7 +11,7 @@
           "protocol": "tcp"
         }
       ],
-      "essential": true
+      "esstential": true
     }
   ],
   "requiresCompatibilities": [ "FARGATE" ],
